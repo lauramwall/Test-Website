@@ -1,7 +1,7 @@
 /* --------------------------------------------------------
 Stylesheet for www.laura.ga
 
-Version: 2.1
+Version: 2.2
 Last modified: September 21, 2018
 Author: Laura Wall
 Email: lauramwall@outlook.com
@@ -19,7 +19,7 @@ body {
     font-family: 'Roboto Mono', monospace;
 }
 
-h4 {
+h1, h4 {
     margin-bottom: 0.5rem;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 0.1px;
@@ -35,17 +35,27 @@ h5 {
 
 .button {
     border-radius: 0px!important;
+    -webkit-transition: -webkit-transform 0.2s ease;
+    transition: -webkit-transform 0.2s ease;
+    -o-transition: transform 0.2s ease;
     transition: transform 0.2s ease;
+    transition: transform 0.2s ease, -webkit-transform 0.2s ease;
     border: 3px solid #000;
     height: auto;
 }
 
 .button:hover {
     -webkit-transform: scale(1.03);
-    transform: scale(1.03);
+    -ms-transform: scale(1.03);
+        transform: scale(1.03);
+    -webkit-transition: -webkit-transform 0.2s ease;
+    transition: -webkit-transform 0.2s ease;
+    -o-transition: transform 0.2s ease;
     transition: transform 0.2s ease;
+    transition: transform 0.2s ease, -webkit-transform 0.2s ease;
     border: 3px solid #000;
-    box-shadow: 7px 7px #FB7270;
+    -webkit-box-shadow: 7px 7px #FB7270;
+            box-shadow: 7px 7px #FB7270;
     background-color: transparent;
 }
 
@@ -54,7 +64,11 @@ h5 {
 
 .contact_button {
     border-radius: 0px!important;
+    -webkit-transition: -webkit-transform 0.2s ease;
+    transition: -webkit-transform 0.2s ease;
+    -o-transition: transform 0.2s ease;
     transition: transform 0.2s ease;
+    transition: transform 0.2s ease, -webkit-transform 0.2s ease;
     border: 3px solid #000;
     height: auto;
     display: inline-block;
@@ -73,10 +87,16 @@ h5 {
 
 .contact_button:hover {
     -webkit-transform: scale(1.03);
-    transform: scale(1.03);
+    -ms-transform: scale(1.03);
+        transform: scale(1.03);
+    -webkit-transition: -webkit-transform 0.2s ease;
+    transition: -webkit-transform 0.2s ease;
+    -o-transition: transform 0.2s ease;
     transition: transform 0.2s ease;
+    transition: transform 0.2s ease, -webkit-transform 0.2s ease;
     border: 3px solid #000;
-    box-shadow: 7px 7px #7D6ABE;
+    -webkit-box-shadow: 7px 7px #7D6ABE;
+            box-shadow: 7px 7px #7D6ABE;
     background-color: transparent;
     color: #000;
 } 
@@ -104,16 +124,25 @@ img {
   max-width: 400px;
   display: block;
   margin: 1rem;
+  -webkit-transition: -webkit-transform 0.2s ease;
+  transition: -webkit-transform 0.2s ease;
+  -o-transition: transform 0.2s ease;
   transition: transform 0.2s ease;
+  transition: transform 0.2s ease, -webkit-transform 0.2s ease;
 }
 
 img:hover {
    border: 1px solid #e8e8e8;
-   box-shadow: 0 3rem 3rem -1.25rem rgba(10,10,10,.1);
+   -webkit-box-shadow: 0 3rem 3rem -1.25rem rgba(10,10,10,.1);
+           box-shadow: 0 3rem 3rem -1.25rem rgba(10,10,10,.1);
    -webkit-transform: translateY(-.5rem);
-   transform: translateY(-.5rem);
+   -ms-transform: translateY(-.5rem);
+       transform: translateY(-.5rem);
+   -webkit-transition: -webkit-transform 0.2s ease;
+   transition: -webkit-transform 0.2s ease;
+   -o-transition: transform 0.2s ease;
    transition: transform 0.2s ease;
-   
+   transition: transform 0.2s ease, -webkit-transform 0.2s ease;
 }
 
 /* Icon styling
@@ -159,7 +188,7 @@ img:hover {
 /* Sections
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .section {
-  padding: 8rem 0 7rem;
+  padding: 8rem 0 8rem;
 }
 .section-heading,
 .section-description {
@@ -197,7 +226,7 @@ img:hover {
   background-image: url('../images/values-bg.jpg');
   background-size: cover;
   color: #000;
-  padding-bottom: 5rem;
+  margin-bottom: 6rem;
 }
 .value-multiplier {
   margin-bottom: .5rem;
@@ -227,13 +256,19 @@ img:hover {
   margin-bottom: 4rem;
 }
 
+@media and (max-width: 550px) {
+  .hero-heading {
+    font-size: 3rem;
+   }
+}
+
 /* Responsive styling
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 /* Bigger than 550 */
 @media (min-width: 550px) {
   .section {
-    padding: 12rem 0 11rem;
+    padding: 12rem 0 12rem;
   }
   .hero {
     padding-bottom: 12rem;
@@ -256,7 +291,7 @@ img:hover {
     max-height: 338px;
   }
   .hero-heading {
-    font-size: 2.4rem;
+    font-size: 3.2rem;
   }
 }
 
@@ -266,7 +301,7 @@ img:hover {
     height: 80px;
   }
   .hero-heading {
-    font-size: 2.6rem;
+    font-size: 3.4rem;
   }
   .section {
     padding: 16rem 0 16rem;
@@ -300,7 +335,7 @@ img:hover {
     padding: 14rem 0;
   }
   .hero-heading {
-    font-size: 3.0rem;
+    font-size: 3.6rem;
   }
   .phone {
     top: -16rem;
