@@ -8,6 +8,7 @@ URL used for web testing.
   <li>HTML5</li>
   <li>CSS3</li>
   <li><a href="http://getskeleton.com/">Skeleton CSS</a></li>
+  <li><a href="https://necolas.github.io/normalize.css/">Normalize CSS</a></li>
   <li><a href="https://autoprefixer.github.io/">Autoprefixer CSS</a></li>
   <li>FontAwesome</li>
   <li><a href="https://www.10bestdesign.com/dirtymarkup/">DirtyMarkup Formatter</a></li>
