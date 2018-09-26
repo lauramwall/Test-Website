@@ -12,7 +12,7 @@ URL used for web testing.
   <li>FontAwesome</li>
   <li><a href="https://www.10bestdesign.com/dirtymarkup/">DirtyMarkup Formatter</a></li>
   <li>Google Font API</li>
-  <li>Brackets.io</li>
+  <li><a href="http://brackets.io/">Brackets.io</a></li>
 </ul>
 
 # Screencap
