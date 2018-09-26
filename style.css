@@ -9,25 +9,32 @@ Website: https://www.laura.ga/
 ----------------------------------------------------------*/
 
 
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,700');
-@import url('https://fonts.googleapis.com/css?family=Montserrat:800,900');
+ @import url('https://fonts.googleapis.com/css?family=Varela+Round');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,800');
 
 /* Overall styling
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 body {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 400;
 }
 
 h1, h4 {
     margin-bottom: 0.5rem;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
     letter-spacing: 0.1px;
     text-transform: uppercase
 }
 
+h3 {
+    font-weight: 800;
+}
+
 h5 {
     font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
 
 /* Hero button
@@ -40,8 +47,9 @@ h5 {
     -o-transition: transform 0.2s ease;
     transition: transform 0.2s ease;
     transition: transform 0.2s ease, -webkit-transform 0.2s ease;
-    border: 3px solid #000;
+    border: 3px solid #212121;
     height: auto;
+    color: #555;
 }
 
 .button:hover {
@@ -53,10 +61,11 @@ h5 {
     -o-transition: transform 0.2s ease;
     transition: transform 0.2s ease;
     transition: transform 0.2s ease, -webkit-transform 0.2s ease;
-    border: 3px solid #000;
-    -webkit-box-shadow: 7px 7px #FB7270;
-            box-shadow: 7px 7px #FB7270;
+    border: 3px solid #212121;
+    -webkit-box-shadow: 7px 7px #3367D6;
+            box-shadow: 7px 7px #3367D6;
     background-color: transparent;
+    color: #212121;
 }
 
 /* Get in Touch button
@@ -69,7 +78,7 @@ h5 {
     -o-transition: transform 0.2s ease;
     transition: transform 0.2s ease;
     transition: transform 0.2s ease, -webkit-transform 0.2s ease;
-    border: 3px solid #000;
+    border: 3px solid #212121;
     height: auto;
     display: inline-block;
     padding: 0 30px;
@@ -94,11 +103,11 @@ h5 {
     -o-transition: transform 0.2s ease;
     transition: transform 0.2s ease;
     transition: transform 0.2s ease, -webkit-transform 0.2s ease;
-    border: 3px solid #000;
-    -webkit-box-shadow: 7px 7px #7D6ABE;
-            box-shadow: 7px 7px #7D6ABE;
+    border: 3px solid #212121;
+    -webkit-box-shadow: 7px 7px #EA6100;
+            box-shadow: 7px 7px #EA6100;
     background-color: transparent;
-    color: #000;
+    color: #212121;
 } 
 
 /* Syling to left align any divs
@@ -202,7 +211,7 @@ img:hover {
 .footer {
     margin-top: 18rem;
     padding-bottom: 2rem;
-    color: #555;
+    color: #9e9e9e;
     font-size: 12px;
 }
 
@@ -223,7 +232,6 @@ img:hover {
 /* Values
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .values {
-  background-image: url('../images/values-bg.jpg');
   background-size: cover;
   color: #000;
   margin-bottom: 6rem;
@@ -233,11 +241,19 @@ img:hover {
   color: #11DFC7;
 }
 .value-heading {
-  margin-bottom: .3rem;
+  margin-bottom: .5rem;
+  margin-top: 1rem;    
+  line-height: normal;
 }
 .value-description {
   opacity: .8;
   font-weight: 300;
+}
+
+#tech {
+  border-left: 6px solid #0B8043;
+  padding-left: 10px;
+  margin-bottom: 30px;
 }
 
 /* Help
