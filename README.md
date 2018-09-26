@@ -8,10 +8,10 @@ URL used for web testing.
   <li>HTML5</li>
   <li>CSS3</li>
   <li>Skeleton CSS Framework</li>
+  <li>Autoprefixer CSS</li>
   <li>FontAwesome</li>
   <li>Google Font API</li>
   <li>Brackets.io</li>
-  <li>Autoprefixer CSS</li>
 </ul>
 
 # Screencap
