@@ -10,7 +10,7 @@ URL used for web testing.
   <li><a href="http://getskeleton.com/">Skeleton CSS</a></li>
   <li><a href="https://necolas.github.io/normalize.css/">Normalize CSS</a></li>
   <li><a href="https://autoprefixer.github.io/">Autoprefixer CSS</a></li>
-  <li>FontAwesome</li>
+  <li><a href="https://fontawesome.com/">Font Awesome</a></li>
   <li><a href="https://www.10bestdesign.com/dirtymarkup/">DirtyMarkup Formatter</a></li>
   <li><a href="https://fonts.google.com/">Google Font CDN</a></li>
   <li><a href="http://brackets.io/">Brackets.io</a></li>
