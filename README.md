@@ -7,7 +7,7 @@ URL used for web testing.
 <ul>
   <li>HTML5</li>
   <li>CSS3</li>
-  <li>Skeleton CSS Framework</li>
+  <li><a href="http://getskeleton.com/">Skeleton CSS</a></li>
   <li><a href="https://autoprefixer.github.io/">Autoprefixer CSS</a></li>
   <li>FontAwesome</li>
   <li><a href="https://www.10bestdesign.com/dirtymarkup/">DirtyMarkup Formatter</a></li>
