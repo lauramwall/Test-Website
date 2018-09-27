@@ -37,6 +37,21 @@ h5 {
     font-weight: 700;
 }
 
+/* Text highlighting
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+::-moz-selection {
+  background: #212121;
+  color: #FFF;
+  text-shadow: none; 
+}
+
+::selection {
+  background: #212121;
+  color: #FFF;
+  text-shadow: none; 
+}
+
 /* Hero button
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -62,8 +77,8 @@ h5 {
     transition: transform 0.2s ease;
     transition: transform 0.2s ease, -webkit-transform 0.2s ease;
     border: 3px solid #212121;
-    -webkit-box-shadow: 7px 7px #3367D6;
-            box-shadow: 7px 7px #3367D6;
+    -webkit-box-shadow: 7px 7px #3455DB;
+            box-shadow: 7px 7px #3455DB;
     background-color: transparent;
     color: #212121;
 }
@@ -104,8 +119,8 @@ h5 {
     transition: transform 0.2s ease;
     transition: transform 0.2s ease, -webkit-transform 0.2s ease;
     border: 3px solid #212121;
-    -webkit-box-shadow: 7px 7px #EA6100;
-            box-shadow: 7px 7px #EA6100;
+    -webkit-box-shadow: 7px 7px #C02F1D;
+            box-shadow: 7px 7px #C02F1D;
     background-color: transparent;
     color: #212121;
 } 
@@ -128,9 +143,9 @@ h5 {
 img {
   border: 1px solid #e8e8e8;
   width: 100%;
-  border-radius: 5px;
+  border-radius: 4px;
   float: left;
-  max-width: 400px;
+  max-width: 330px;
   display: block;
   margin: 1rem;
   -webkit-transition: -webkit-transform 0.2s ease;
@@ -251,7 +266,7 @@ img:hover {
 }
 
 #tech {
-  border-left: 6px solid #0B8043;
+  border-left: 6px solid #EBC944;
   padding-left: 10px;
   margin-bottom: 30px;
 }
